@@ -37,3 +37,4 @@ _(Empty.)_
 
 - 2026-10-04: Symbolic-link target and dangling-link behavior (104.6) — brief explanation prompted by `cp -a` preserving links during 103.3 file-copy practice.
 - 2026-10-05: Permissions, ownership and hard/symbolic links (104.5–104.7) — started during Arc item 1 file-copy/compression practice; item 1 remains in progress.
+- 2026-10-06: FHS configuration location (104.7) — resumed at paused /etc hostname question before returning to Arc item 1 review.

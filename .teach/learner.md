@@ -16,7 +16,7 @@ One sentence: what you want to be able to *do* once you understand the current t
 
 Things you've retrieved correctly on multiple occasions, including after a gap. The tutor will use these as foundations to build on and as analogies when teaching new material.
 
-_(Empty. Fills in as you demonstrate solid understanding.)_
+- PATH lookup — 2026-10-03: explained order; 2026-10-05: clean fresh example on ./python3, bare PATH lookup and first match; 2026-10-06: clean next-day first-match recall.
 
 ## Shaky
 
@@ -25,19 +25,18 @@ Things you've seen but haven't consolidated. The tutor will prioritize these for
 - Numeric permissions — 2026-10-03: unable to interpret chmod 755; 2026-10-05: decoded 644/755, directory x entry, chmod numeric/symbolic practiced; needs independent recall.
 - Output redirection — 2026-10-03: recognizes combined output/errors; 2026-10-05: applied >, >>, <, 2>, &>, 2>&1 and pipes with guidance; stream placement still shaky.
 - systemd service lifecycle — 2026-10-03: start versus enable unknown.
-- Bash quoting and empty arguments — 2026-10-03: guided success; splitting and argument counts need review.
-- PATH lookup — 2026-10-03: explained order; 2026-10-05: clean fresh example on ./python3, bare PATH lookup and first match; more review due.
+- Bash quoting and empty arguments — 2026-10-03: guided success; 2026-10-06: initially lost empty quoted arg and confused single/double quotes, corrected with prompts; review due.
 - Variable reassignment and PATH updates — 2026-10-03: substitution improved; construction needed hints.
 - Command classification via type — 2026-10-03: identified cd builtin and ls alias; 2026-10-05: forgot type and initially misclassified external path; needs review.
-- Shell variable inheritance and export — initially shaky 2026-10-03; 2026-10-04 explained reassignment and child changes not affecting parent after guidance; retention pending.
+- Shell variable inheritance and export — initially shaky 2026-10-03; 2026-10-04 guided; 2026-10-06 clean child-value prediction after reassignment; more recall due.
 - File operations and quoted filenames — 2026-10-04: cp/mv/rm and recursion understood; composing exact spaced filenames needed scaffolding.
 - Directory removal — 2026-10-04: rmdir and parent traversal understood stepwise; needs independent recall.
 - Globbing and find — 2026-10-04: assembled quoted -name/-iname with -type f; Bash expansion versus find matching remains shaky.
 - History and documentation — 2026-10-04: history, numbered recall, Up, help and man demonstrated; manual searching needed hints.
 - File-copy paths and file inspection — 2026-10-05: mkdir -p, cp directory destinations, study/. dotfiles and file/touch practiced with hints; review independently.
 - Text filters and pipelines — 2026-10-05: grep, head/tail, wc, sort/uniq practiced; initially missed nonadjacent-duplicate and frequency behavior.
-- Output versus error redirection — 2026-10-05: >, >>, 2>, &> and pipes applied; initial confusion on which stream reaches wc, then resolved.
-- Regex basics — 2026-10-05: ^, $, ., *, .*, [0-9] practiced; .* same-char model corrected after contrast; needs spaced recall.
+- Output versus error redirection — 2026-10-05: >, >>, 2>, &> and pipes applied; 2026-10-06: clean 2>&1 pipe count; other forms due.
+- Regex basics — 2026-10-05: ^, $, ., *, .*, [0-9] practiced; 2026-10-06: clean exact-line and zero-or-more recall; other patterns due.
 - Vi editing — 2026-10-05: open/insert/save-quit/delete/undo/search/yank/navigate practiced same-session; needs independent recall.
 - Archiving and compression — 2026-10-05: tar -cf/-tf/-xf/-zcf, gzip replacement/-d, zcat practiced with hints; needs review.
 - File ownership and links — 2026-10-05: chown owner/group, directory-x entry, hard vs symlink survival understood after guidance; needs recall.
